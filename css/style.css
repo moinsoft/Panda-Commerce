@@ -28,6 +28,10 @@ Header Section
   color: #ff136f;
 }
 
+/*======================================
+Slider Section
+========================================*/
+
 .slider-bg {
   border-radius: 10px;
 }
@@ -50,7 +54,7 @@ Header Section
   transition: all 0.5s linear;
 }
 
-.buy-now-button:hover{
+.buy-now-button:hover {
   background-image: linear-gradient(to bottom, #ff136f 0%, #ff589b 100%);
 }
 
@@ -74,4 +78,40 @@ Header Section
 .carousel-control-next i {
   color: #ff136f !important;
   font-size: 30px;
+}
+
+/*======================================
+Categorie Section
+========================================*/
+
+.categories {
+  padding: 0 0;
+}
+
+.categorie-1 h1,
+.categorie-2 h1,
+.categorie-3 h1 {
+  color: white;
+}
+.categorie-1 img,
+.categorie-2 img,
+.categorie-3 img {
+  width: 100px;
+}
+
+.categorie-1 {
+  background-color: orange;
+}
+.categorie-2 {
+  background-color: orchid;
+}
+.categorie-3 {
+  background-color: blue;
+}
+
+.categorie-1,
+.categorie-2,
+.categorie-3 {
+  padding: 10px 30px;
+  border-radius: 10px;
 }
