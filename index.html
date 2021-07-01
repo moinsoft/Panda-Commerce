@@ -7,6 +7,11 @@
 
     <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
 
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    />
+
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -19,8 +24,8 @@
   </head>
   <body>
     <!-- Header Section Start -->
-    <header class="container">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header class="container orange-bg header">
+      <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="assets/logo.png" class="img-fluid" alt="" />
@@ -69,6 +74,136 @@
       </nav>
     </header>
     <!-- Header Section End -->
+
+    <!-- Slider Section Start -->
+    <section class="container orange-bg slider-bg my-5">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row align-items-center">
+              <div class="col-md-7">
+                <h2>Mega LCD TV For Sports</h2>
+
+                <p class="mt-4 mb-4">
+                  This is the best tv in the world for people who just want to
+                  waste time in front of tv.
+                </p>
+
+                <h3 class="price">$1200</h3>
+
+                <button class="buy-now-button mt-4">Buy Now</button>
+              </div>
+
+              <div class="col-md-5">
+                <img
+                  src="assets/banner-images/tv.png"
+                  class="img-fluid w-100 d-block"
+                  alt="Mega LCD TV"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-md-7">
+                <h2>Cool Dude Headphone</h2>
+
+                <p class="mt-4 mb-4">
+                  This is the best headphone in the world for people who just
+                  want to waste time in front of funky world
+                </p>
+
+                <h3 class="price">$420</h3>
+
+                <button class="buy-now-button mt-4">Buy Now</button>
+              </div>
+
+              <div class="col-md-5">
+                <img
+                  src="assets/banner-images/headphone.png"
+                  class="img-fluid w-100 d-block"
+                  alt="Headphone"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-md-7">
+                <h2>X-Box for your living room</h2>
+
+                <p class="mt-4 mb-4">
+                  This is the best x-box in the world for people who just want
+                  to waste time in front
+                </p>
+
+                <h3 class="price">$600</h3>
+
+                <button class="buy-now-button mt-4">Buy Now</button>
+              </div>
+
+              <div class="col-md-5">
+                <img
+                  src="assets/banner-images/xbox.png"
+                  class="img-fluid w-100 d-block"
+                  alt="Gaming Toy"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <i class="fas fa-chevron-left"></i>
+        </button>
+
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </section>
+    <!-- Slider Section End -->
 
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
