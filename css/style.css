@@ -46,16 +46,16 @@ Slider Section
 }
 
 .buy-now-button {
-  background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+  text-decoration: none;
+  background-color: #ff136f;
   color: #fff;
-  border-radius: 8px;
+  border-radius: 5px;
   border: none;
-  padding: 5px 20px;
-  transition: all 0.5s linear;
+  padding: 10px 20px;
 }
 
 .buy-now-button:hover {
-  background-image: linear-gradient(to bottom, #ff136f 0%, #ff589b 100%);
+  color: #fff;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -114,4 +114,9 @@ Categorie Section
 .categorie-3 {
   padding: 10px 30px;
   border-radius: 10px;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 0 10px 3px lightgray;
 }
